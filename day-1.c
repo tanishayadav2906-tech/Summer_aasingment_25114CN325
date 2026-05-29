@@ -10,7 +10,6 @@ void sumNatural(int n) {
 
     printf("Sum of first %d natural numbers = %d\n", n, sum);
 }
-
 // Function to print multiplication table
 void multiplicationTable(int n) {
     printf("\nMultiplication Table of %d:\n", n);
