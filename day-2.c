@@ -18,9 +18,9 @@ int reverseNumber(int num) {
         num = num / 10;                        // Remove the last digit
     }
     return reverse;
-
+}
 // Function to find the product of digits
-int productOfDigits(int num) {
+int productOfDigits(int num){
     int product = 1, remainder;
     
     // Handle the special case if the initial number itself is 0
@@ -32,7 +32,7 @@ int productOfDigits(int num) {
         num = num / 10;            // Remove the last digit
     }
     return product;
-}
+}   
 // Function to check if a number is a palindrome
 int isPalindrome(int num) {
     // If the reversed number is equal to the original number, it's a palindrome
